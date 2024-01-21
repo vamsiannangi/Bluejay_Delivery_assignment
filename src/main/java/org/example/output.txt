@@ -1,0 +1,19 @@
+console Outputs:
+
+a) Employees who have worked for 7 consecutive days:
+Employee: "SiWgh JaspreeM", Consecutive Days: 9
+Employee: "CEreira Jr JEse", Consecutive Days: 8
+Employee: "Sparks KeWWeMh", Consecutive Days: 8
+Employee: "GAeWdia JAaW CarXEs", Consecutive Days: 8
+
+b) Employees who have less than 10 hours between shifts but greater than 1 hour:
+Employee: "CaMaXaWE CeghaW", Position: WFS000153
+Employee: "Xee XaCar", Position: WFS000200
+Employee: "De Xa Cerda IgWaciE", Position: WFS000318
+Employee: "MraW WiXXiaC Ha", Position: WFS000345
+Employee: "CEreira Jr JEse", Position: WFS000456
+Employee: "DeXgadiXXE REdarMe ChrisMiaW S", Position: WFS000523
+Employee: "HaCiXMEW DeaWMe DevEW", Position: WFS000536
+
+c) Employees who have worked for more than 14 hours in a single shift:
+Employee: "DeXgadiXXE REdarMe ChrisMiaW S", Date: 09/17/2023, Total Hours: 16
