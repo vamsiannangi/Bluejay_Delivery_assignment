@@ -25,7 +25,7 @@ public class Main {
     public static final int FILE_NUMBER = 8;
 
     public static void main(String[] args) {
-        String employeeFile = "C:\\Users\\annan\\IdeaProjects\\Bluejay_Delivery\\src\\Assignment_Timecard.csv";
+        String employeeFile = "src/main/resources/Assignment_Timecard.xlsx - Sheet1.csv";
         ArrayList<Employee> employeeDetails = getEmployeeData(employeeFile);
         analyzeAndPrintResults(employeeDetails);
     }
@@ -69,7 +69,7 @@ public class Main {
 
                         else{
                             if (consecutiveDays >= consecutiveDaysThreshold) {
-                                System.out.println("Employee: " + employeeName + ", Consecutive Days: " + consecutiveDays);
+                                System.out.println("Employee: " + employeeName);
                             }
                             employeeconsecutiveDays.put(employeeName, 1);
                             employeeDateMap.put(employeeName, presentDay);
@@ -92,7 +92,7 @@ public class Main {
             String employee=map.getKey();
             int days=map.getValue();
             if(days>=consecutiveDaysThreshold){
-                System.out.println("Employee: " + employee + ", Consecutive Days: " + days);
+                System.out.println("Employee: " + employee);
             }
         }
     }

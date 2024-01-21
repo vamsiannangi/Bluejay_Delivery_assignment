@@ -1,10 +1,10 @@
 console Outputs:
 
 a) Employees who have worked for 7 consecutive days:
-Employee: "SiWgh JaspreeM", Consecutive Days: 9
-Employee: "CEreira Jr JEse", Consecutive Days: 8
-Employee: "Sparks KeWWeMh", Consecutive Days: 8
-Employee: "GAeWdia JAaW CarXEs", Consecutive Days: 8
+Employee: "SiWgh JaspreeM"
+Employee: "CEreira Jr JEse"
+Employee: "Sparks KeWWeMh"
+Employee: "GAeWdia JAaW CarXEs"
 
 b) Employees who have less than 10 hours between shifts but greater than 1 hour:
 Employee: "CaMaXaWE CeghaW", Position: WFS000153
